@@ -28,6 +28,7 @@
     A="text 700,1250 "\'$B\'
     convert -fill ""#80ff00"" -font Helvetica -pointsize 20 -draw "$A" ~/GOES16.jpg ~/output.jpg
     #set as wallpaper
+    convert -fill ""#cfff00"" -font Helvetica -pointsize 20 -draw "text 840,907 '.'" ~/output.jpg ~/output.jpg # a Dot in the place of Quito
     xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitoreDP-1/workspace0/last-image -s ~/output.jpg
 #    sleep 30
 #done
