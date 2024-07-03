@@ -25,4 +25,4 @@ It can be set by clicking on Start>Keyboard>Application Shortcuts, Add, and set 
 *Feel free to use, report or comment*
 
 ## Gallery
-![NOAA GOES16 Imagery](https://cdn.star.nesdis.noaa.gov/GOES16/ABI/FD/GEOCOLOR/1808x1808.jpg)
+![NOAA GOES16 Imagery](https://raw.githubusercontent.com/Diego0101/noaa_wallpaper/main/screen.jpg)
