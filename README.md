@@ -15,14 +15,15 @@ Copy the source from this repository
 > sudo update-rc.d noaa-wallpaper.sh default
 
 ## Execution 
-By runing the script:
+By runing the script for GLM data:
+> /opt/noaawallpaper/noaa-wallpaper.sh -s glm
+or DayNight data
+> /opt/noaawallpaper/noaa-wallpaper.sh -s dn
 
-> /opt/noaawallpaper/noaa-wallpaper.sh
-
-My personal choice is to invoke it through the shortcut: Ctrl+F12
-It can be set by clicking on Start>Keyboard>Application Shortcuts, Add, and set the execution of "/opt/bin/noaa-wallpaper.sh" triggered by Ctrl+F12
-
+My personal choice is to invoke it through the shortcut: Ctrl+F11
+It can be set by clicking on Start>Keyboard>Application Shortcuts, Add, and set the execution of "/opt/noaa-wallpaper.sh -s dn" triggered by Ctrl+F11
 *Feel free to use, report or comment*
 
 ## Gallery
+Example of desktop with DayNight data screenshot
 ![NOAA GOES16 Imagery](https://raw.githubusercontent.com/Diego0101/noaa_wallpaper/main/screen.jpg)
