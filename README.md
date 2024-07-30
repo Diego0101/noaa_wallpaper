@@ -17,7 +17,9 @@ Copy the source from this repository
 ## Execution 
 By runing the script for GLM data:
 > /opt/noaawallpaper/noaa-wallpaper.sh -s glm
+
 or DayNight data
+
 > /opt/noaawallpaper/noaa-wallpaper.sh -s dn
 
 My personal choice is to invoke it through the shortcut: Ctrl+F11
@@ -27,3 +29,9 @@ It can be set by clicking on Start>Keyboard>Application Shortcuts, Add, and set 
 ## Gallery
 Example of desktop with DayNight data screenshot
 ![NOAA GOES16 Imagery](https://raw.githubusercontent.com/Diego0101/noaa_wallpaper/main/screen.jpg)
+
+
+Copyright (c) 2024 Diego Ayala
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
