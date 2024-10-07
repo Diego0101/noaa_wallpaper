@@ -2,28 +2,29 @@
 ## Description
 This is a script that display a "real time" image of Earth, incoming from NOAA's satellite data, and sets it as desktop wallpaper for the Linux Xfce Desktop Environment (Works on Linux Mint)
 ## Installation
-Copy the source from this repository
+
 
 > sudo apt-get install imagemagick
->
+> 
 > sudo mkdir /opt/noaawallpaper
 > 
-> sudo git clone https://github.com/Diego0101/noaa_wallpaper.git /opt/noaawallpaper
+> sudo curl -L https://raw.githubusercontent.com/Diego0101/noaa_wallpaper/refs/heads/main/noaawallpaper.sh -o /opt/noaawallpaper/noaawallpaper.sh
 > 
-> sudo chmod 755 /opt/noaawallpaper/noaa-wallpaper.sh
+> sudo chmod 755 /opt/noaawallpaper/noaawallpaper.sh
 > 
-> sudo update-rc.d noaa-wallpaper.sh default
+> sudo update-rc.d noaawallpaper.sh default
+
 
 ## Execution 
 By runing the script for GLM data:
-> /opt/noaawallpaper/noaa-wallpaper.sh -s glm
+> /opt/noaawallpaper/noaawallpaper.sh -s glm
 
 or DayNight data
 
-> /opt/noaawallpaper/noaa-wallpaper.sh -s dn
+> /opt/noaawallpaper/noaawallpaper.sh -s dn
 
 My personal choice is to invoke it through the shortcut: Ctrl+F11
-It can be set by clicking on Start>Keyboard>Application Shortcuts, Add, and set the execution of "/opt/noaa-wallpaper.sh -s dn" triggered by Ctrl+F11
+It can be set by clicking on Start>Keyboard>Application Shortcuts, Add, and set the execution of "/opt/noaawallpaper.sh -s dn" triggered by Ctrl+F11
 *Feel free to use, report or comment*
 
 ## Gallery
