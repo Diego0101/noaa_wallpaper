@@ -1,6 +1,6 @@
 #! /bin/sh
 ### BEGIN INIT INFO
-# Provides:          noaa-wallpaper.sh
+# Provides:          noaawallpaper.sh
 # Required-Start:    $remote_fs $syslog
 # Required-Stop:     $remote_fs $syslog
 # Default-Start:     2 3 4 5
@@ -9,7 +9,11 @@
 # Description:       Enable service provided by daemon.
 ### END INIT INFO
 
-# NOAA Wallpaper by DEAC
+#Copyright (c) 2024 Diego Ayala
+#The above copyright notice and this permission notice shall be included in all
+#copies or substantial portions of the Software.
+
+# NOAA Wallpaper by Diego Ayala
     convert -fill ""#80ff00"" -font Helvetica -pointsize 20 -draw "text 900,700 'Coded by DEAC, Updating NOAA imagery...'" ~/output.jpg ~/  GOES16.jpg
     xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitoreDP-1/workspace0/last-image -s ~/GOES16.jpg
 while getopts "s:" opt; do
