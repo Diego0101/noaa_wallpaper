@@ -26,7 +26,7 @@ It can be set by clicking on Start>Keyboard>Application Shortcuts, Add, and set 
 
 ## Gallery
 Example of desktop with DayNight data screenshot
-![eumetsat METEOSAT0 Imagery](https://raw.githubusercontent.com/Diego0101/eumetsat_wallpaper/main/screen.jpg)
+![eumetsat METEOSAT0 Imagery](https://github.com/Diego0101/noaa_wallpaper/blob/900ceb15b249d78b3274d5fce71ae8ccce588b41/screeneuro.jpg)
 
 
 Copyright (c) 2024 Diego Ayala
