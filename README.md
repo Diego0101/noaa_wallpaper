@@ -8,7 +8,7 @@ This is a script that display a "real time" image of Earth, incoming from eumets
 > 
 > sudo mkdir /opt/eumetsatwallpaper
 > 
-> sudo curl -L https://raw.githubusercontent.com/Diego0101/eumetsat_wallpaper/refs/heads/main/eumetsatwallpaper.sh -o /opt/eumetsatwallpaper/eumetsatwallpaper.sh
+> sudo curl -L https://raw.githubusercontent.com/Diego0101/noaa_wallpaper/refs/heads/eumetsat/eumetsatwallpaper.sh -o /opt/eumetsatwallpaper/eumetsatwallpaper.sh
 > 
 > sudo chmod 755 /opt/eumetsatwallpaper/eumetsatwallpaper.sh
 > 
